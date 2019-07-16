@@ -1,0 +1,57 @@
+@import "mixins/mixins";
+@import "common/var";
+
+@include b(page-header) {
+	display: flex;
+	align-items: center;
+	margin-bottom: 12px;
+	line-height: 24px;
+	background-color: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .1);
+
+	@include e(left) {
+		display: flex;
+		margin-right: 40px;
+		position: relative;
+
+		&.border::after {
+			content: "";
+			position: absolute;
+			width: 1px;
+			height: 16px;
+			right: -24px;
+			top: 50%;
+			transform: translateY(-50%);
+			background-color: $--border-color-base;
+		}
+
+		@include e(back) {
+			padding: 12px 8px 12px 36px;
+			display: flex;
+		}
+
+		.btn-back {
+			font-size: 18px;
+			margin-right: 6px;
+			align-self: center;
+			cursor: pointer;
+		}
+
+		@include e(title) {
+			font-size: 16px;
+			line-height: 48px;
+			color: #0F1220;
+			&.pl {
+				padding-left: 36px;
+			}
+		}
+	}
+
+	@include e(content) {
+		position: relative;
+		flex-grow: 1;
+		padding-right: 24px;
+		font-size: 14px;
+		color: $--color-text-primary;
+	}
+}
