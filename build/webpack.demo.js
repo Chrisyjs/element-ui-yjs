@@ -53,18 +53,18 @@ const webpackConfig = {
   },
   module: {
     rules: [
-      {
-        enforce: 'pre',
-        test: /\.jsx?$/,
-        exclude: /node_modules|bower_components/,
-        loader: 'eslint-loader'
-      },
-      {
-        enforce: 'pre',
-        test: /\.vue$/,
-        exclude: /node_modules|bower_components/,
-        loader: 'eslint-loader'
-      },
+      // {
+      //   enforce: 'pre',
+      //   test: /\.jsx?$/,
+      //   exclude: /node_modules|bower_components/,
+      //   loader: 'eslint-loader'
+      // },
+      // {
+      //   enforce: 'pre',
+      //   test: /\.vue$/,
+      //   exclude: /node_modules|bower_components/,
+      //   loader: 'eslint-loader'
+      // },
       {
         test: /\.(jsx?|babel|es6)$/,
         include: process.cwd(),

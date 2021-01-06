@@ -9,7 +9,9 @@
   "plugins": ["html", "json"],
   "extends": "elemefe",
   "rules": {
-    "no-restricted-globals": ["error", "event", "fdescribe"]
+    "no-restricted-globals": ["error", "event", "fdescribe"],
+    "no-console": "off",
+    "no-debugger": "off"
   },
   "parserOptions": {
     "ecmaFeatures": {

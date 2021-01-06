@@ -257,6 +257,15 @@
               "title": "Drawer 抽屉"
             }
           ]
+        },
+        {
+          "groupName": "Test",
+          "list": [
+            {
+              "path": "/form-test",
+              "title": "Form 测试"
+            }
+          ]
         }
       ]
     }
