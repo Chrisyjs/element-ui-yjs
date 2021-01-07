@@ -208,7 +208,6 @@
         this.validateDisabled = false;
       },
       resetField() {
-        debugger
         this.validateState = '';
         this.validateMessage = '';
 

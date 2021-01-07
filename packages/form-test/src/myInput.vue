@@ -6,21 +6,21 @@
 
 <script>
 import ElInput from "element-ui/packages/input/src/input.vue";
-import emitter from 'element-ui/src/mixins/emitter';
+// import emitter from 'element-ui/src/mixins/emitter';
 export default {
   props: ["value"],
   components: {
     ElInput,
   },
-  mixins: [emitter],
-  inject: {
-    elForm: {
-      default: "",
-    },
-    elFormItem: {
-      default: "",
-    },
-  },
+  // mixins: [emitter],
+  // inject: {
+  //   elForm: {
+  //     default: "",
+  //   },
+  //   elFormItem: {
+  //     default: "",
+  //   },
+  // },
   computed: {
     val: {
       get() {
@@ -28,8 +28,8 @@ export default {
       },
       set(val) {
         console.log(val);
-        this.$emit("value:update", val);
-        this.dispatch('ElFormItem', 'el.form.change', [val]);
+        this.$emit("update:value", val);
+        // this.dispatch('ElFormItem', 'el.form.change', [val]);
       },
     },
   },
