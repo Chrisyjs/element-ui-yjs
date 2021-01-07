@@ -1,6 +1,7 @@
 <template>
   <div>
     <el-input v-model="val" placeholder="请输入"></el-input>
+    <!-- <input type="text" v-model="val"> -->
   </div>
 </template>
 
