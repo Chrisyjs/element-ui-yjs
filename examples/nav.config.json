@@ -264,6 +264,10 @@
             {
               "path": "/form-test",
               "title": "Form 测试"
+            },
+            {
+              "path": "/table-test",
+              "title": "Table 测试"
             }
           ]
         }
@@ -528,6 +532,19 @@
               "title": "Drawer"
             }
           ]
+        },
+        {
+          "groupName": "Test",
+          "list": [
+            {
+              "path": "/form-test",
+              "title": "Form test"
+            },
+            {
+              "path": "/table-test",
+              "title": "Table test"
+            }
+          ]
         }
       ]
     }
@@ -788,6 +805,19 @@
             {
               "path": "/drawer",
               "title": "Drawer"
+            }
+          ]
+        },
+        {
+          "groupName": "Test",
+          "list": [
+            {
+              "path": "/form-test",
+              "title": "Form test"
+            },
+            {
+              "path": "/table-test",
+              "title": "Table test"
             }
           ]
         }

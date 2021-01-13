@@ -71,8 +71,8 @@ import Aside from '../packages/aside/index.js';
 import Main from '../packages/main/index.js';
 import Footer from '../packages/footer/index.js';
 import PageHeader from '../packages/page-header/index.js';
-import TreeSelect from '../packages/tree-select/index.js';
 import FormTest from '../packages/form-test/index.js';
+import TableTest from '../packages/table-test/index.js';
 import locale from 'element-ui/src/locale';
 import CollapseTransition from 'element-ui/src/transitions/collapse-transition';
 
@@ -144,8 +144,8 @@ const components = [
   Main,
   Footer,
   PageHeader,
-  TreeSelect,
   FormTest,
+  TableTest,
   CollapseTransition
 ];
 
@@ -256,7 +256,8 @@ module.exports = {
   Main,
   Footer,
   PageHeader,
-  FormTest
+  FormTest,
+  TableTest
 };
 
 module.exports.default = module.exports;
