@@ -242,7 +242,6 @@ export default {
     const minWidth = parseMinWidth(this.minWidth);
 
     let isColumnGroup = false;
-
     let column = getDefaultColumn(type, {
       id: this.columnId,
       columnKey: this.columnKey,
